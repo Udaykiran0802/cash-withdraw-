@@ -1,0 +1,75 @@
+.main-container {
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  height: 80vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  border-radius: 15px;
+}
+.head-container {
+  margin: 10px;
+}
+.heading-letter {
+  font-size: 20px;
+  margin: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+  color: #382f5a;
+  align-items: center;
+  background-color: #c4c4c4;
+  border-radius: 50px;
+  padding: 25px;
+}
+.head {
+  color: #c4c4c4;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.amount-container {
+  margin: 10px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.para {
+  color: #382f5a;
+  font-size: 20px;
+}
+.amount {
+  color: #d4d2db;
+  font-size: 19px;
+}
+.amount-in-words {
+  color: #382f5a;
+  font-size: 20px;
+}
+.withdraw-container {
+  margin: 12px;
+}
+.withdraw-heading {
+  color: #d4d2db;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.amount-selection-text {
+  color: #382f5a;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.denomation-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
